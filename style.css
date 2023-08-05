@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.blinkit-navbar{
+    border-bottom: 1px solid rgb(238, 238, 238);
+    background-color: white;
+    position: sticky;
+    top: 0px;
+    /* width: 100%; */
+    height: 86px;
+    z-index: 1000;
+    /* flex-wrap: nowrap; */
+    box-sizing: border-box;
+}
+.vertical-line{
+    border-left: 1px solid rgb(238, 238, 238);
+    height: 100%;
+}
+.location>p{
+    font-size: 13px;
+    /* color: rgb(0, 0, 0); */
+    font-weight: 400;
+    /* clear: both; */
+    /* display: inline-block; */
+    /* overflow: hidden; */
+    /* white-space: nowrap; */
+    /* width: auto; */
+    /* max-width: 210px; */
+    /* text-overflow: ellipsis; */
+}
+.search-bar{
+    background-color: #f8f8f8;
+    border-radius:8px;
+    border-left: 1px solid rgb(238, 238, 238);
+    padding:10px;
+    width:40vw;
+}
+.search-bar>input{
+    width:95%;
+    border:none;
+    background-color:transparent;
+}
+.search-bar>input:focus{
+     outline:none;
+}
+.my-scrollable-div-1{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    overflow-x:auto;
+    width:85vw;
+    margin-inline:auto ;
+}
+.list{
+    /* overflow-x:auto; */
+    width:100%;
+    margin-inline: auto;
+    /* white space creates no wrap the content  */
+    white-space:nowrap;   
+    gap: 10px;
+}
+.list>div{
+    display: inline-block;
+    margin:10px;
+}
+::-webkit-scrollbar{
+    /* background-color: aqua; */
+    display:none;
+}
+.my-categories{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    width:90vw;
+    margin-inline: auto;
+}
+.my-category-div{
+    width:90vw;
+    justify-content: center;
+    margin-inline: auto;
+}
