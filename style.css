@@ -96,7 +96,7 @@
 .my-card{
     width:190px;
     box-sizing: border-box;
-    box-shadow: 0.5px 0.5px 2px;
+    box-shadow: 0px 0px 2px;
     margin-left: 10px;
 }
 .time-taken{
@@ -251,4 +251,33 @@ tr>th{
 }
 .table-1{
     flex:2;
+}
+.see-all{
+    padding-left: 16px;
+    color: rgb(12, 131, 31);
+    font-size: 20px;
+    text-decoration: none;
+}
+.see-all:hover{
+    color: red;
+    text-decoration: none;
+}
+@media screen and(max-width:1243px) {
+    .blinkit-navbar{
+        width:100vw;
+        margin-inline:auto ;
+    }
+    /* .my-hero-section-1{
+        width: 90vw;
+        margin-inline:auto ;
+
+    }
+    .my-hero-section-1>img{
+        width: 90%;
+        padding:auto ;
+    }
+    .my-scrollable-div-1{
+        width: 100%;
+        margin-inline:auto ;
+    } */
 }
